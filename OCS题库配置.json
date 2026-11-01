@@ -1,0 +1,14 @@
+[
+  {
+    "name": "本地 DeepSeek",
+    "url": "http://127.0.0.1:3000/search",
+    "method": "post",
+    "contentType": "json",
+    "data": {
+      "title": "${title}",
+      "type": "${type}",
+      "options": "${options}"
+    },
+    "handler": "return (res) => res.code === 1 ? [res.question, res.answer] : [res.msg, undefined]"
+  }
+]

@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/
+logs/
+*.db
+*.db-*
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+.server.pid
